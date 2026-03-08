@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload File</title>
+    <style>
+        /* Modal styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .modal-content {
+            background-color: white;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+        }
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Upload Your File Here</h1>
+    <form id="uploadForm">
+        <!-- Updated to accept any file type for testing -->
+        <input type="file" id="myFile" name="file" accept=".txt,.xlsx,.xls,.csv,.pdf">
+        <input type="submit" value="Upload File">
+    </form>
+
+    <p id="output"></p> <!-- Display server response -->
+
+    <!-- Modal for UPCs -->
+    <div id="upcModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Profitable UPCs</h2>
+            <pre id="upcContent"></pre>
+            <button id="copyBtn">Copy UPCs</button>
+        </div>
+    </div>
+
+    <script>
+        const form = document.getElementById("uploadForm");
+        const fileInput = document.getElementById("myFile");
+        const output = document.getElementById("output");
+        const modal = document.getElementById("upcModal");
+        const upcContent = document.getElementById("upcContent");
+        const copyBtn = document.getElementById("copyBtn");
+        const closeBtn = document.querySelector(".close");
+
+        // Close modal function
+        closeBtn.onclick = function() {
+            modal.style.display = "none";
+        };
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        };
+
+        // Copy UPCs to clipboard
+        copyBtn.onclick = function() {
+            const text = upcContent.innerText;
+            navigator.clipboard.writeText(text).then(() => {
+                alert("UPCs copied to clipboard");
+            }).catch(err => {
+                console.error("Failed to copy UPCs: ", err);
+            });
+        };
+
+        // Handle form submission
+        form.addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            const file = fileInput.files[0];
+            if (!file) {
+                alert("Please select a file.");
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append("file", file);
+
+            fetch("http://localhost:8081/api", {
+                method: "POST",
+                body: formData,
+                mode: 'cors' 
+            })
+            .then(response => response.text())
+            .then(data => {
+                // Since no-cors hides the response, you can't access response.text() directly
+                upcContent.innerText = data;
+                modal.style.display = "block";
+            })
+            .catch(error => {
+                output.innerText = "Error uploading file: " + error.message;
+                console.error("Error uploading file:", error);
+            });
+        });
+    </script>
+</body>
+</html>

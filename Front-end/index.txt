@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+<h1> Upload your Excel File Here </h1>
+<p> Right here. </p>
+<form action="/action_page.php">
+<input type ="file" id="myFile" name="filename">
+<input type="submit">
+</form>
+	 <script>
+        // Get reference to the form and file input element
+        const form = document.getElementById("uploadForm");
+        const fileInput = document.getElementById("myFile");
+
+        // Add event listener to the form to handle submission
+        form.addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent the form from submitting the traditional way
+
+            const file = fileInput.files[0]; // Get the uploaded file
+            if (file) {
+                uploadFile(file); // Call the uploadFile function
+            }
+        });
+
+        function uploadFile(file) {
+            const formData = new FormData(); // Create FormData object to send file data
+            formData.append("file", file);   // Append file to the form data
+
+            // Use the fetch API to send the file to the backend
+            fetch("http://localhost:8080/api/upload", {
+                method: "POST",
+                body: formData // Send the file data
+            })
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("output").innerText = data; // Display server response
+            })
+            .catch(error => {
+                console.error("Error:", error);
+            });
+        }
+    </script>
+</body>
+</html>
