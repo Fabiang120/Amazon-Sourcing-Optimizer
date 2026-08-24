@@ -36,9 +36,9 @@ std::string client_secret;
 std::string refresh_token;
 
 // Implements rest api back end for requesting a new Amazon access token
-#include <mutex>
+#include <shared_mutex>
 
-std::mutex access_token_mutex;  // Mutex to protect access to amazon_access_token
+std::shared_mutex access_token_mutex; // Mutex to protect access to amazon_access_token
 
 void request_new_access_token() {
     try {
@@ -51,20 +51,23 @@ void request_new_access_token() {
         request.headers().add(U("Content-Type"), U("application/x-www-form-urlencoded"));
         request.set_body(request_body);
 
-        client.request(request).then([](const http_response& response) {
+        client.request(request).then([](const http_response &response)
+                                     {
             if (response.status_code() == status_codes::OK) {
                 return response.extract_json();
             } else {
                 throw std::runtime_error("Failed to get new access token: " + std::to_string(response.status_code()));
-            }
-        }).then([](json::value json_response) {
-            std::lock_guard<std::mutex> lock(access_token_mutex);  // Lock the mutex before accessing shared resource
+            } })
+            .then([](json::value json_response)
+                  {
+                    {
+                        std::unique_lock<std::shared_mutex> lock(access_token_mutex);  // Lock the mutex before accessing shared resource
+                        // Update the global amazon_access_token
+                        amazon_access_token = utility::conversions::to_utf8string(json_response[U("access_token")].as_string());
+                    }
 
-            // Update the global amazon_access_token
-            amazon_access_token = utility::conversions::to_utf8string(json_response[U("access_token")].as_string());
-
-            std::wcout << L"New access token: " << json_response[U("access_token")].as_string() << std::endl;
-        }).wait();
+            std::wcout << L"New access token: " << json_response[U("access_token")].as_string() << std::endl; })
+            .wait();
     } catch (const std::exception& e) {
         std::cerr << "Exception in request_new_access_token: " << e.what() << std::endl;
     }
@@ -76,7 +79,7 @@ void refresh_keys() {
     while (true) {
         request_new_access_token();  // Already protected by mutex inside this function
 
-        std::lock_guard<std::mutex> lock(access_token_mutex);
+        std::shared_lock<std::shared_mutex> lock(access_token_mutex);
         std::cout << "Access token refreshed: " << amazon_access_token << std::endl;
 
         std::this_thread::sleep_for(std::chrono::minutes(50));
@@ -88,7 +91,7 @@ void refresh_keys() {
 // Function to generate HMAC-SHA256 signature
 std::string hmac_sha256(const std::string &key, const std::string &data) {
     unsigned char* result;  // Variable to hold HMAC result
-    static char res_hexstring[65];  // Buffer to store the hex-encoded result
+    char res_hexstring[65];  // Buffer to store the hex-encoded result
     // Perform HMAC-SHA256 with the given key and data
     result = HMAC(EVP_sha256(), reinterpret_cast<const unsigned char*>(key.c_str()), static_cast<int>(key.length()), reinterpret_cast<const unsigned char*>(data.c_str()), static_cast<int>(data.length()), nullptr, nullptr);
     // Convert the result to a hex-encoded string
@@ -281,7 +284,10 @@ void searchCatalogItems(std::vector<Product>& productBatch) {
             // Set up the HTTP request object with headers
             http_request request(methods::GET);
             request.headers().add(U("Authorization"), utility::conversions::to_string_t(authorization_header)); // AWS authorization
-            request.headers().add(U("x-amz-access-token"), utility::conversions::to_string_t(amazon_access_token)); // Amazon access token
+            {
+                std::shared_lock<std::shared_mutex> lock(access_token_mutex);
+                request.headers().add(U("x-amz-access-token"), utility::conversions::to_string_t(amazon_access_token));
+            }
             request.headers().add(U("Accept"), U("application/json")); // Set request to accept JSON response
             request.headers().add(U("Content-Type"), U("application/json")); // Specify JSON content type
             request.headers().add(U("region"), U("us-east-1")); // AWS region
@@ -434,7 +440,10 @@ void getCompetitiveSummary(std::vector<Product>& productBatch) {
 
     // Add necessary headers to the request
     request.headers().add(U("Authorization"), utility::conversions::to_string_t(authorization_header));  // AWS Authorization
-    request.headers().add(U("x-amz-access-token"), utility::conversions::to_string_t(amazon_access_token));  // Access token
+    {
+        std::shared_lock<std::shared_mutex> lock(access_token_mutex);
+        request.headers().add(U("x-amz-access-token"), utility::conversions::to_string_t(amazon_access_token)); // Access token
+    }
     request.headers().add(U("Accept"), U("application/json"));  // Accept JSON response
     request.headers().add(U("Content-Type"), U("application/json"));  // Content type as JSON
     request.headers().add(U("region"), U("us-east-1"));  // AWS region
@@ -750,8 +759,6 @@ void handle_file_upload(web::http::http_request request) {
                 std::cout << "Processing .txt file: " << filename << std::endl;
             } else if (filename.find(".xlsx") != std::string::npos || filename.find(".xls") != std::string::npos) {
                 // Handle Excel file upload
-                std::thread key_refresh_thread(refresh_keys);
-                key_refresh_thread.detach();
                 request_new_access_token();
 
                 // Use the process_excel_file function to process the Excel file
@@ -835,6 +842,8 @@ void handle_file_upload(web::http::http_request request) {
 }
 
 int main() {
+    std::thread key_refresh_thread(refresh_keys);
+    key_refresh_thread.detach();
     http_listener listener (U("http://localhost:8081"));
     // Bind the OPTIONS method to handle CORS preflight requests
     listener.support(methods::OPTIONS, [](const http_request& request) {

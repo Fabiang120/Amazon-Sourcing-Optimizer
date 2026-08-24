@@ -7,7 +7,10 @@ find_package(xlnt CONFIG REQUIRED)
 find_package(cpprestsdk CONFIG REQUIRED)
 find_package(OpenSSL REQUIRED)
 add_executable(Amazon2 main.cpp)
-target_link_libraries(Amazon2 PRIVATE xlnt::xlnt)
-target_link_libraries(Amazon2 PRIVATE cpprestsdk::cpprest cpprestsdk::cpprestsdk_zlib_internal cpprestsdk::cpprestsdk_brotli_internal)
-target_link_libraries(Amazon2 PRIVATE OpenSSL::SSL OpenSSL::Crypto)
+target_link_libraries(Amazon2 PRIVATE
+    xlnt::xlnt
+    cpprestsdk::cpprest
+    OpenSSL::SSL
+    OpenSSL::Crypto
+)
 

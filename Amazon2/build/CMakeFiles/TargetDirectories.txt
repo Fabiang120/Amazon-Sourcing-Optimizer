@@ -1,0 +1,3 @@
+/workspace/Amazon-Sourcing-optimizer/Amazon2/build/CMakeFiles/Amazon2.dir
+/workspace/Amazon-Sourcing-optimizer/Amazon2/build/CMakeFiles/edit_cache.dir
+/workspace/Amazon-Sourcing-optimizer/Amazon2/build/CMakeFiles/rebuild_cache.dir

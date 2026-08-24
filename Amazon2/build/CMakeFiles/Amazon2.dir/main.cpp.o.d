@@ -1,0 +1,782 @@
+CMakeFiles/Amazon2.dir/main.cpp.o: \
+ /workspace/Amazon-Sourcing-optimizer/Amazon2/main.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/12/iostream \
+ /usr/include/aarch64-linux-gnu/c++/12/bits/c++config.h \
+ /usr/include/aarch64-linux-gnu/c++/12/bits/os_defines.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+ /usr/include/aarch64-linux-gnu/bits/timesize.h \
+ /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+ /usr/include/aarch64-linux-gnu/bits/long-double.h \
+ /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+ /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+ /usr/include/aarch64-linux-gnu/c++/12/bits/cpu_defines.h \
+ /usr/include/c++/12/pstl/pstl_config.h /usr/include/c++/12/ostream \
+ /usr/include/c++/12/ios /usr/include/c++/12/iosfwd \
+ /usr/include/c++/12/bits/stringfwd.h \
+ /usr/include/c++/12/bits/memoryfwd.h /usr/include/c++/12/bits/postypes.h \
+ /usr/include/c++/12/cwchar /usr/include/wchar.h \
+ /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/aarch64-linux-gnu/bits/floatn.h \
+ /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+ /usr/lib/gcc/aarch64-linux-gnu/12/include/stddef.h \
+ /usr/lib/gcc/aarch64-linux-gnu/12/include/stdarg.h \
+ /usr/include/aarch64-linux-gnu/bits/wchar.h \
+ /usr/include/aarch64-linux-gnu/bits/types/wint_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+ /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+ /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/c++/12/exception /usr/include/c++/12/bits/exception.h \
+ /usr/include/c++/12/bits/exception_ptr.h \
+ /usr/include/c++/12/bits/exception_defines.h \
+ /usr/include/c++/12/bits/cxxabi_init_exception.h \
+ /usr/include/c++/12/typeinfo /usr/include/c++/12/bits/hash_bytes.h \
+ /usr/include/c++/12/new /usr/include/c++/12/bits/move.h \
+ /usr/include/c++/12/type_traits \
+ /usr/include/c++/12/bits/nested_exception.h \
+ /usr/include/c++/12/bits/char_traits.h /usr/include/c++/12/cstdint \
+ /usr/lib/gcc/aarch64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
+ /usr/include/aarch64-linux-gnu/bits/types.h \
+ /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+ /usr/include/aarch64-linux-gnu/bits/time64.h \
+ /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
+ /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/c++/12/bits/localefwd.h \
+ /usr/include/aarch64-linux-gnu/c++/12/bits/c++locale.h \
+ /usr/include/c++/12/clocale /usr/include/locale.h \
+ /usr/include/aarch64-linux-gnu/bits/locale.h /usr/include/c++/12/cctype \
+ /usr/include/ctype.h /usr/include/aarch64-linux-gnu/bits/endian.h \
+ /usr/include/aarch64-linux-gnu/bits/endianness.h \
+ /usr/include/c++/12/bits/ios_base.h /usr/include/c++/12/ext/atomicity.h \
+ /usr/include/aarch64-linux-gnu/c++/12/bits/gthr.h \
+ /usr/include/aarch64-linux-gnu/c++/12/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/aarch64-linux-gnu/bits/sched.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h \
+ /usr/include/aarch64-linux-gnu/bits/cpu-set.h /usr/include/time.h \
+ /usr/include/aarch64-linux-gnu/bits/time.h \
+ /usr/include/aarch64-linux-gnu/bits/timex.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
+ /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h \
+ /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/timer_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
+ /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
+ /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
+ /usr/include/aarch64-linux-gnu/bits/struct_mutex.h \
+ /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h \
+ /usr/include/aarch64-linux-gnu/bits/setjmp.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+ /usr/include/aarch64-linux-gnu/c++/12/bits/atomic_word.h \
+ /usr/include/aarch64-linux-gnu/sys/single_threaded.h \
+ /usr/include/c++/12/bits/locale_classes.h /usr/include/c++/12/string \
+ /usr/include/c++/12/bits/allocator.h \
+ /usr/include/aarch64-linux-gnu/c++/12/bits/c++allocator.h \
+ /usr/include/c++/12/bits/new_allocator.h \
+ /usr/include/c++/12/bits/functexcept.h \
+ /usr/include/c++/12/bits/cpp_type_traits.h \
+ /usr/include/c++/12/bits/ostream_insert.h \
+ /usr/include/c++/12/bits/cxxabi_forced.h \
+ /usr/include/c++/12/bits/stl_iterator_base_types.h \
+ /usr/include/c++/12/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/12/bits/concept_check.h \
+ /usr/include/c++/12/debug/assertions.h \
+ /usr/include/c++/12/bits/stl_iterator.h \
+ /usr/include/c++/12/ext/type_traits.h \
+ /usr/include/c++/12/bits/ptr_traits.h \
+ /usr/include/c++/12/bits/stl_function.h \
+ /usr/include/c++/12/backward/binders.h \
+ /usr/include/c++/12/ext/numeric_traits.h \
+ /usr/include/c++/12/bits/stl_algobase.h \
+ /usr/include/c++/12/bits/stl_pair.h /usr/include/c++/12/bits/utility.h \
+ /usr/include/c++/12/debug/debug.h \
+ /usr/include/c++/12/bits/predefined_ops.h \
+ /usr/include/c++/12/bits/refwrap.h /usr/include/c++/12/bits/invoke.h \
+ /usr/include/c++/12/bits/range_access.h \
+ /usr/include/c++/12/initializer_list \
+ /usr/include/c++/12/bits/basic_string.h \
+ /usr/include/c++/12/ext/alloc_traits.h \
+ /usr/include/c++/12/bits/alloc_traits.h \
+ /usr/include/c++/12/bits/stl_construct.h /usr/include/c++/12/string_view \
+ /usr/include/c++/12/bits/functional_hash.h \
+ /usr/include/c++/12/bits/string_view.tcc \
+ /usr/include/c++/12/ext/string_conversions.h /usr/include/c++/12/cstdlib \
+ /usr/include/stdlib.h /usr/include/aarch64-linux-gnu/bits/waitflags.h \
+ /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
+ /usr/include/aarch64-linux-gnu/sys/types.h /usr/include/endian.h \
+ /usr/include/aarch64-linux-gnu/bits/byteswap.h \
+ /usr/include/aarch64-linux-gnu/bits/uintn-identity.h \
+ /usr/include/aarch64-linux-gnu/sys/select.h \
+ /usr/include/aarch64-linux-gnu/bits/select.h \
+ /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
+ /usr/include/alloca.h /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/c++/12/bits/std_abs.h /usr/include/c++/12/cstdio \
+ /usr/include/stdio.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+ /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+ /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/c++/12/cerrno /usr/include/errno.h \
+ /usr/include/aarch64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/aarch64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
+ /usr/include/c++/12/bits/charconv.h \
+ /usr/include/c++/12/bits/basic_string.tcc \
+ /usr/include/c++/12/bits/locale_classes.tcc \
+ /usr/include/c++/12/system_error \
+ /usr/include/aarch64-linux-gnu/c++/12/bits/error_constants.h \
+ /usr/include/c++/12/stdexcept /usr/include/c++/12/streambuf \
+ /usr/include/c++/12/bits/streambuf.tcc \
+ /usr/include/c++/12/bits/basic_ios.h \
+ /usr/include/c++/12/bits/locale_facets.h /usr/include/c++/12/cwctype \
+ /usr/include/wctype.h /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h \
+ /usr/include/aarch64-linux-gnu/c++/12/bits/ctype_base.h \
+ /usr/include/c++/12/bits/streambuf_iterator.h \
+ /usr/include/aarch64-linux-gnu/c++/12/bits/ctype_inline.h \
+ /usr/include/c++/12/bits/locale_facets.tcc \
+ /usr/include/c++/12/bits/basic_ios.tcc \
+ /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
+ /usr/include/c++/12/bits/istream.tcc \
+ /workspace/vcpkg/installed/arm64-linux/include/cpprest/http_client.h \
+ /workspace/vcpkg/installed/arm64-linux/include/cpprest/asyncrt_utils.h \
+ /workspace/vcpkg/installed/arm64-linux/include/cpprest/details/basic_types.h \
+ /workspace/vcpkg/installed/arm64-linux/include/cpprest/details/cpprest_compat.h \
+ /usr/include/assert.h \
+ /workspace/vcpkg/installed/arm64-linux/include/cpprest/details/nosal.h \
+ /usr/include/c++/12/fstream /usr/include/c++/12/bits/codecvt.h \
+ /usr/include/aarch64-linux-gnu/c++/12/bits/basic_file.h \
+ /usr/include/aarch64-linux-gnu/c++/12/bits/c++io.h \
+ /usr/include/c++/12/bits/fstream.tcc /usr/include/c++/12/sstream \
+ /usr/include/c++/12/bits/sstream.tcc \
+ /workspace/vcpkg/installed/arm64-linux/include/cpprest/details/SafeInt3.hpp \
+ /usr/include/c++/12/cstddef /usr/include/c++/12/stdlib.h \
+ /workspace/vcpkg/installed/arm64-linux/include/pplx/pplxtasks.h \
+ /workspace/vcpkg/installed/arm64-linux/include/pplx/pplx.h \
+ /workspace/vcpkg/installed/arm64-linux/include/pplx/pplxlinux.h \
+ /usr/include/signal.h \
+ /usr/include/aarch64-linux-gnu/bits/signum-generic.h \
+ /usr/include/aarch64-linux-gnu/bits/signum-arch.h \
+ /usr/include/aarch64-linux-gnu/bits/types/sig_atomic_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/siginfo_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__sigval_t.h \
+ /usr/include/aarch64-linux-gnu/bits/siginfo-arch.h \
+ /usr/include/aarch64-linux-gnu/bits/siginfo-consts.h \
+ /usr/include/aarch64-linux-gnu/bits/siginfo-consts-arch.h \
+ /usr/include/aarch64-linux-gnu/bits/types/sigval_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/sigevent_t.h \
+ /usr/include/aarch64-linux-gnu/bits/sigevent-consts.h \
+ /usr/include/aarch64-linux-gnu/bits/sigaction.h \
+ /usr/include/aarch64-linux-gnu/bits/sigcontext.h \
+ /usr/include/aarch64-linux-gnu/asm/sigcontext.h \
+ /usr/include/linux/types.h /usr/include/aarch64-linux-gnu/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/include/aarch64-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h \
+ /usr/include/aarch64-linux-gnu/asm/posix_types.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/aarch64-linux-gnu/asm/sve_context.h \
+ /usr/include/aarch64-linux-gnu/bits/types/stack_t.h \
+ /usr/include/aarch64-linux-gnu/sys/ucontext.h \
+ /usr/include/aarch64-linux-gnu/sys/procfs.h \
+ /usr/include/aarch64-linux-gnu/sys/time.h \
+ /usr/include/aarch64-linux-gnu/sys/user.h \
+ /usr/include/aarch64-linux-gnu/bits/procfs.h \
+ /usr/include/aarch64-linux-gnu/bits/procfs-id.h \
+ /usr/include/aarch64-linux-gnu/bits/procfs-prregset.h \
+ /usr/include/aarch64-linux-gnu/bits/procfs-extra.h \
+ /usr/include/aarch64-linux-gnu/bits/sigstack.h \
+ /usr/include/aarch64-linux-gnu/bits/sigstksz.h /usr/include/unistd.h \
+ /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
+ /usr/include/aarch64-linux-gnu/bits/environments.h \
+ /usr/include/aarch64-linux-gnu/bits/confname.h \
+ /usr/include/aarch64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
+ /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h \
+ /usr/include/aarch64-linux-gnu/bits/ss_flags.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_sigstack.h \
+ /usr/include/aarch64-linux-gnu/bits/sigthread.h \
+ /usr/include/aarch64-linux-gnu/bits/signal_ext.h \
+ /usr/include/c++/12/atomic /usr/include/c++/12/bits/atomic_base.h \
+ /usr/include/c++/12/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/12/condition_variable /usr/include/c++/12/bits/chrono.h \
+ /usr/include/c++/12/ratio /usr/include/c++/12/limits \
+ /usr/include/c++/12/ctime /usr/include/c++/12/bits/parse_numbers.h \
+ /usr/include/c++/12/bits/std_mutex.h \
+ /usr/include/c++/12/bits/unique_lock.h \
+ /usr/include/c++/12/bits/shared_ptr.h \
+ /usr/include/c++/12/bits/shared_ptr_base.h \
+ /usr/include/c++/12/bits/allocated_ptr.h \
+ /usr/include/c++/12/bits/unique_ptr.h /usr/include/c++/12/tuple \
+ /usr/include/c++/12/bits/uses_allocator.h \
+ /usr/include/c++/12/ext/aligned_buffer.h \
+ /usr/include/c++/12/ext/concurrence.h /usr/include/c++/12/mutex \
+ /workspace/vcpkg/installed/arm64-linux/include/pplx/pplxinterface.h \
+ /usr/include/c++/12/memory /usr/include/c++/12/bits/stl_uninitialized.h \
+ /usr/include/c++/12/bits/stl_tempbuf.h \
+ /usr/include/c++/12/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/12/bits/align.h /usr/include/c++/12/bit \
+ /usr/include/c++/12/bits/shared_ptr_atomic.h \
+ /usr/include/c++/12/backward/auto_ptr.h \
+ /usr/include/c++/12/pstl/glue_memory_defs.h \
+ /usr/include/c++/12/pstl/execution_defs.h \
+ /workspace/vcpkg/installed/arm64-linux/include/pplx/pplxcancellation_token.h \
+ /usr/include/c++/12/functional /usr/include/c++/12/bits/std_function.h \
+ /usr/include/c++/12/unordered_map /usr/include/c++/12/bits/hashtable.h \
+ /usr/include/c++/12/bits/hashtable_policy.h \
+ /usr/include/c++/12/bits/enable_special_members.h \
+ /usr/include/c++/12/bits/node_handle.h \
+ /usr/include/c++/12/bits/unordered_map.h \
+ /usr/include/c++/12/bits/erase_if.h /usr/include/c++/12/vector \
+ /usr/include/c++/12/bits/stl_vector.h \
+ /usr/include/c++/12/bits/stl_bvector.h \
+ /usr/include/c++/12/bits/vector.tcc /usr/include/c++/12/array \
+ /usr/include/c++/12/compare /usr/include/c++/12/bits/stl_algo.h \
+ /usr/include/c++/12/bits/algorithmfwd.h \
+ /usr/include/c++/12/bits/stl_heap.h \
+ /usr/include/c++/12/bits/uniform_int_dist.h \
+ /usr/include/c++/12/algorithm \
+ /usr/include/c++/12/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/12/utility /usr/include/c++/12/bits/stl_relops.h \
+ /usr/include/c++/12/chrono \
+ /usr/lib/gcc/aarch64-linux-gnu/12/include/limits.h \
+ /usr/lib/gcc/aarch64-linux-gnu/12/include/syslimits.h \
+ /usr/include/limits.h /usr/include/aarch64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/aarch64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/aarch64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/aarch64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/aarch64-linux-gnu/bits/uio_lim.h /usr/include/c++/12/random \
+ /usr/include/c++/12/cmath /usr/include/math.h \
+ /usr/include/aarch64-linux-gnu/bits/math-vector.h \
+ /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/aarch64-linux-gnu/bits/fp-logb.h \
+ /usr/include/aarch64-linux-gnu/bits/fp-fast.h \
+ /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
+ /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h \
+ /usr/include/aarch64-linux-gnu/bits/iscanonical.h \
+ /usr/include/c++/12/bits/specfun.h /usr/include/c++/12/tr1/gamma.tcc \
+ /usr/include/c++/12/tr1/special_function_util.h \
+ /usr/include/c++/12/tr1/bessel_function.tcc \
+ /usr/include/c++/12/tr1/beta_function.tcc \
+ /usr/include/c++/12/tr1/ell_integral.tcc \
+ /usr/include/c++/12/tr1/exp_integral.tcc \
+ /usr/include/c++/12/tr1/hypergeometric.tcc \
+ /usr/include/c++/12/tr1/legendre_function.tcc \
+ /usr/include/c++/12/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/12/tr1/poly_hermite.tcc \
+ /usr/include/c++/12/tr1/poly_laguerre.tcc \
+ /usr/include/c++/12/tr1/riemann_zeta.tcc \
+ /usr/include/c++/12/bits/random.h \
+ /usr/include/aarch64-linux-gnu/c++/12/bits/opt_random.h \
+ /usr/include/c++/12/bits/random.tcc /usr/include/c++/12/numeric \
+ /usr/include/c++/12/bits/stl_numeric.h \
+ /usr/include/c++/12/pstl/glue_numeric_defs.h \
+ /workspace/vcpkg/installed/arm64-linux/include/cpprest/details/web_utilities.h \
+ /workspace/vcpkg/installed/arm64-linux/include/cpprest/uri.h \
+ /workspace/vcpkg/installed/arm64-linux/include/cpprest/base_uri.h \
+ /usr/include/c++/12/map /usr/include/c++/12/bits/stl_tree.h \
+ /usr/include/c++/12/bits/stl_map.h \
+ /usr/include/c++/12/bits/stl_multimap.h \
+ /workspace/vcpkg/installed/arm64-linux/include/cpprest/uri_builder.h \
+ /workspace/vcpkg/installed/arm64-linux/include/cpprest/http_msg.h \
+ /workspace/vcpkg/installed/arm64-linux/include/cpprest/containerstream.h \
+ /workspace/vcpkg/installed/arm64-linux/include/cpprest/astreambuf.h \
+ /usr/include/c++/12/cstring /usr/include/string.h /usr/include/strings.h \
+ /usr/include/c++/12/math.h \
+ /workspace/vcpkg/installed/arm64-linux/include/cpprest/streams.h \
+ /usr/include/c++/12/iterator /usr/include/c++/12/bits/stream_iterator.h \
+ /usr/include/c++/12/queue /usr/include/c++/12/deque \
+ /usr/include/c++/12/bits/stl_deque.h /usr/include/c++/12/bits/deque.tcc \
+ /usr/include/c++/12/bits/stl_queue.h \
+ /workspace/vcpkg/installed/arm64-linux/include/cpprest/http_compression.h \
+ /workspace/vcpkg/installed/arm64-linux/include/cpprest/http_headers.h \
+ /workspace/vcpkg/installed/arm64-linux/include/cpprest/json.h \
+ /workspace/vcpkg/installed/arm64-linux/include/cpprest/details/http_constants.dat \
+ /workspace/vcpkg/installed/arm64-linux/include/cpprest/oauth1.h \
+ /workspace/vcpkg/installed/arm64-linux/include/cpprest/oauth2.h \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ssl.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ssl/context.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/config.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/version.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/config.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/config/user.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/config/detail/select_compiler_config.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/config/compiler/gcc.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/config/detail/select_stdlib_config.hpp \
+ /usr/include/c++/12/version \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/config/stdlib/libstdcpp3.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/config/detail/select_platform_config.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/config/platform/linux.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/config/detail/posix_features.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/config/detail/suffix.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/config/helper_macros.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/config/detail/cxx_composite.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/version.hpp \
+ /usr/include/linux/version.h \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/buffer.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/array_fwd.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/memory.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/cstdint.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/throw_exception.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/throw_exception.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/exception/exception.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/assert/source_location.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/cstdint.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/config/workaround.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/string_view.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/type_traits.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/is_contiguous_iterator.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/push_options.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/pop_options.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/is_buffer_sequence.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/io_context.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/async_result.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/default_completion_token.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/deferred.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/associator.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/utility.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/impl/deferred.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/chrono.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/concurrency_hint.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/noncopyable.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/wrapped_handler.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/bind_handler.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/handler_cont_helpers.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/handler_continuation_hook.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/initiate_dispatch.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/associated_allocator.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/functional.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/associated_executor.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/execution/executor.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/execution/invocable_archetype.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/traits/equality_comparable.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/traits/execute_member.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/execution_context.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/impl/execution_context.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/handler_type_requirements.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/service_registry.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/mutex.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/posix_mutex.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/scoped_lock.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/impl/posix_mutex.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/throw_error.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/error_code.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/detail/error_code.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/is_error_code_enum.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/detail/error_category.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/detail/config.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/detail/error_condition.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/detail/generic_category.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/detail/generic_category_message.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/detail/enable_if.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/detail/is_same.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/detail/errc.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/is_error_condition_enum.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/detail/cerrno.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/detail/append_int.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/detail/snprintf.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/detail/system_category.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/detail/system_category_impl.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/detail/system_category_message.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/api_config.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/detail/interop_category.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/detail/std_category.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/error_category.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/detail/error_category_impl.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/detail/std_category_impl.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/detail/mutex.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/error_condition.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/errc.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/generic_category.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/system_category.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/detail/throws.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/impl/throw_error.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/system/system_error.hpp \
+ /usr/include/c++/12/cassert \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/error.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/cerrno.hpp \
+ /usr/include/netdb.h /usr/include/netinet/in.h \
+ /usr/include/aarch64-linux-gnu/sys/socket.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_iovec.h \
+ /usr/include/aarch64-linux-gnu/bits/socket.h \
+ /usr/include/aarch64-linux-gnu/bits/socket_type.h \
+ /usr/include/aarch64-linux-gnu/bits/sockaddr.h \
+ /usr/include/aarch64-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h \
+ /usr/include/aarch64-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_osockaddr.h \
+ /usr/include/aarch64-linux-gnu/bits/in.h /usr/include/rpc/netdb.h \
+ /usr/include/aarch64-linux-gnu/bits/netdb.h \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/impl/error.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/impl/service_registry.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/impl/service_registry.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/impl/execution_context.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/inline_executor.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/non_const_lvalue.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/execution.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/execution/allocator.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/is_applicable_property.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/traits/query_static_constexpr_member.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/traits/static_query.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/execution/any_executor.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/assert.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/assert.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/atomic_count.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/cstddef.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/executor_function.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/handler_alloc_helpers.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/recycling_allocator.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/thread_context.hpp \
+ /usr/include/c++/12/climits \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/call_stack.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/tss_ptr.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/keyword_tss_ptr.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/impl/thread_context.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/thread_info_base.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/multiple_exceptions.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/impl/multiple_exceptions.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/scoped_ptr.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/execution/bad_executor.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/execution/impl/bad_executor.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/execution/blocking.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/prefer.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/traits/prefer_free.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/traits/prefer_member.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/traits/require_free.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/traits/require_member.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/traits/static_require.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/query.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/traits/query_member.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/traits/query_free.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/require.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/execution/blocking_adaptation.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/event.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/posix_event.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/impl/posix_event.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/execution/context.hpp \
+ /usr/include/c++/12/any \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/execution/context_as.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/execution/inline_exception_handling.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/execution/mapping.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/execution/occupancy.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/execution/outstanding_work.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/execution/prefer_only.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/execution/relationship.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/is_executor.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/is_executor.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/work_dispatcher.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/executor_work_guard.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/scheduler.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/conditionally_enabled_event.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/conditionally_enabled_mutex.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/null_event.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/impl/null_event.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/op_queue.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/scheduler_operation.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/handler_tracking.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/impl/handler_tracking.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/scheduler_task.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/thread.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/posix_thread.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/impl/posix_thread.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/impl/scheduler.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/config.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/impl/config.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/impl/config.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/limits.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/scheduler_thread_info.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/signal_blocker.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/posix_signal_blocker.hpp \
+ /usr/include/c++/12/csignal \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/reactor.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/epoll_reactor.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/object_pool.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/reactor_op.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/operation.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/select_interrupter.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/eventfd_select_interrupter.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/impl/eventfd_select_interrupter.ipp \
+ /usr/include/aarch64-linux-gnu/sys/stat.h \
+ /usr/include/aarch64-linux-gnu/bits/stat.h \
+ /usr/include/aarch64-linux-gnu/bits/struct_stat.h \
+ /usr/include/aarch64-linux-gnu/bits/statx.h /usr/include/linux/stat.h \
+ /usr/include/aarch64-linux-gnu/bits/statx-generic.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_statx_timestamp.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_statx.h \
+ /usr/include/fcntl.h /usr/include/aarch64-linux-gnu/bits/fcntl.h \
+ /usr/include/aarch64-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/linux/falloc.h /usr/include/aarch64-linux-gnu/sys/eventfd.h \
+ /usr/include/aarch64-linux-gnu/bits/eventfd.h \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/slim_mutex.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/socket_types.hpp \
+ /usr/include/aarch64-linux-gnu/sys/ioctl.h \
+ /usr/include/aarch64-linux-gnu/bits/ioctls.h \
+ /usr/include/aarch64-linux-gnu/asm/ioctls.h \
+ /usr/include/asm-generic/ioctls.h /usr/include/linux/ioctl.h \
+ /usr/include/aarch64-linux-gnu/asm/ioctl.h \
+ /usr/include/asm-generic/ioctl.h \
+ /usr/include/aarch64-linux-gnu/bits/ioctl-types.h \
+ /usr/include/aarch64-linux-gnu/sys/ttydefaults.h /usr/include/poll.h \
+ /usr/include/aarch64-linux-gnu/sys/poll.h \
+ /usr/include/aarch64-linux-gnu/bits/poll.h \
+ /usr/include/aarch64-linux-gnu/sys/uio.h \
+ /usr/include/aarch64-linux-gnu/bits/uio-ext.h \
+ /usr/include/aarch64-linux-gnu/sys/un.h /usr/include/netinet/tcp.h \
+ /usr/include/arpa/inet.h /usr/include/net/if.h \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/timer_queue_base.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/timer_queue_set.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/impl/timer_queue_set.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/wait_op.hpp \
+ /usr/include/aarch64-linux-gnu/sys/timerfd.h \
+ /usr/include/aarch64-linux-gnu/bits/timerfd.h \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/impl/epoll_reactor.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/impl/epoll_reactor.ipp \
+ /usr/include/aarch64-linux-gnu/sys/epoll.h \
+ /usr/include/aarch64-linux-gnu/bits/epoll.h \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/impl/io_context.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/completion_handler.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/fenced_block.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/std_fenced_block.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/handler_work.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/associated_immediate_executor.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/executor_op.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/impl/io_context.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ssl/context_base.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ssl/detail/openssl_types.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/conf.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/macros.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/opensslconf.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/configuration.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/opensslv.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/bio.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/e_os2.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/crypto.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/safestack.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/stack.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/types.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/cryptoerr.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/symhacks.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/cryptoerr_legacy.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/core.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/bioerr.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/lhash.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/conferr.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/conftypes.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/ssl.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/e_ostime.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/comp.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/comperr.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/x509.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/buffer.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/buffererr.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/evp.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/core_dispatch.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/indicator.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/params.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/bn.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/bnerr.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/evperr.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/objects.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/obj_mac.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/asn1.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/asn1err.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/objectserr.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/ec.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/ecerr.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/rsa.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/rsaerr.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/dsa.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/dh.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/dherr.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/dsaerr.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/sha.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/x509err.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/x509_vfy.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/pkcs7.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/pkcs7err.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/http.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/pem.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/pemerr.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/hmac.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/async.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/asyncerr.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/ct.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/cterr.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/sslerr.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/sslerr_legacy.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/prov_ssl.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/ssl2.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/ssl3.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/tls1.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/dtls1.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/srtp.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/quic.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/engine.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/rand.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/randerr.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/ui.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/uierr.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/err.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/engineerr.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/x509v3.h \
+ /workspace/vcpkg/installed/arm64-linux/include/openssl/x509v3err.h \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ssl/detail/openssl_init.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ssl/detail/impl/openssl_init.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ssl/detail/password_callback.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ssl/detail/verify_callback.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ssl/verify_context.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ssl/verify_mode.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ssl/impl/context.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ssl/impl/context.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ssl/error.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ssl/impl/error.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ssl/host_name_verification.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ssl/impl/host_name_verification.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ip/address.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ip/address_v4.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/array.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/winsock_init.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ip/impl/address_v4.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ip/impl/address_v4.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/socket_ops.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/impl/socket_ops.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ip/address_v6.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ip/impl/address_v6.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ip/impl/address_v6.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ip/bad_address_cast.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ip/impl/address.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ip/impl/address.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ssl/stream.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/buffer_sequence_adapter.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/registered_buffer.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/impl/buffer_sequence_adapter.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ssl/detail/buffered_handshake_op.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ssl/detail/engine.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/static_mutex.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/posix_static_mutex.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ssl/stream_base.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ssl/detail/impl/engine.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ssl/detail/handshake_op.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ssl/detail/io.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/base_from_cancellation_state.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/associated_cancellation_slot.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/cancellation_signal.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/cancellation_type.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/impl/cancellation_signal.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/cancellation_state.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ssl/detail/stream_core.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/steady_timer.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/basic_waitable_timer.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/any_io_executor.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/impl/any_io_executor.ipp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/chrono_time_traits.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/deadline_timer_service.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/timer_queue.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/date_time_fwd.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/timer_scheduler.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/timer_scheduler_fwd.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/wait_handler.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/io_object_impl.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/wait_traits.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/write.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/completion_condition.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/basic_streambuf_fwd.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/impl/write.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/base_from_completion_cond.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/consuming_buffers.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/detail/dependent_type.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ssl/detail/read_op.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ssl/detail/shutdown_op.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/boost/asio/ssl/detail/write_op.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/cpprest/http_listener.h \
+ /usr/include/c++/12/iomanip /usr/include/c++/12/locale \
+ /usr/include/c++/12/bits/locale_facets_nonio.h \
+ /usr/include/aarch64-linux-gnu/c++/12/bits/time_members.h \
+ /usr/include/aarch64-linux-gnu/c++/12/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/12/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/12/bits/locale_conv.h \
+ /usr/include/c++/12/bits/quoted_string.h /usr/include/c++/12/thread \
+ /usr/include/c++/12/bits/std_thread.h \
+ /usr/include/c++/12/bits/this_thread_sleep.h \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/xlnt.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/xlnt_config.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/utils/xlnt_cmake_export.h \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/cell/cell.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/cell/cell_type.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/cell/index_types.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/cell/rich_text.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/cell/phonetic_run.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/cell/rich_text_run.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/styles/font.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/styles/color.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/utils/optional.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/utils/exceptions.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/utils/numeric.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/worksheet/phonetic_pr.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/cell/cell_reference.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/cell/comment.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/cell/hyperlink.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/packaging/manifest.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/packaging/relationship.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/packaging/uri.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/utils/path.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/internal/features.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/utils/environment.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/styles/alignment.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/styles/border.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/styles/fill.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/styles/format.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/styles/number_format.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/styles/protection.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/styles/style.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/utils/calendar.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/utils/date.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/utils/datetime.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/utils/time.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/utils/timedelta.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/utils/variant.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/workbook/document_security.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/workbook/external_book.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/workbook/metadata_property.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/workbook/named_range.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/workbook/streaming_workbook_reader.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/workbook/streaming_workbook_writer.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/workbook/theme.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/workbook/workbook.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/workbook/worksheet_iterator.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/worksheet/cell_iterator.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/worksheet/major_order.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/worksheet/range_reference.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/worksheet/worksheet.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/worksheet/page_margins.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/worksheet/page_setup.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/worksheet/sheet_view.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/worksheet/pane.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/worksheet/selection.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/worksheet/cell_vector.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/worksheet/column_properties.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/worksheet/header_footer.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/utils/scoped_enum_hash.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/worksheet/range.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/styles/conditional_format.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/worksheet/range_iterator.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/worksheet/row_properties.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/worksheet/sheet_format_properties.hpp \
+ /workspace/vcpkg/installed/arm64-linux/include/xlnt/worksheet/sheet_protection.hpp
